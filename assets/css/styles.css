@@ -1,0 +1,240 @@
+  * {
+    /*aquí se le quitan todas las configuraciones del navegador para
+      comenzar a trabajar las propias, una limpieza de configuraciones*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  body {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+header {
+  margin: 0;
+  height: 10em;
+  padding: 5em;
+  background-image: url(../img/tech.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header{
+  height: 20em;
+}
+
+.logo {
+  margin: auto;
+  width: 150px;
+}
+
+header .title {
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 0.1em;
+}
+
+.navegacion {
+  margin: 0;
+  background: rgb(23, 66, 122);
+  text-align: right;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.menu > li {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+}
+.menu > li > a {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  background: #fff;
+  color: #000;
+}
+.welcome {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+}
+.welcome h2 {
+  font-size: 2em;
+  color: rgb(23, 66, 122);
+  font-weight: 900;
+}
+.weloome p {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 300;
+}
+.item {
+  width: 300px;
+}
+
+.servicios {
+  width: 80%;
+  margin: auto;
+}
+
+.servicios .td {
+  width: 50%;
+  padding: 2em;
+}
+
+.servicios img {
+  width: 100%;
+  border: solid 1px #ddd;
+}
+
+footer {
+  height: 12em;
+  line-height: 3em;
+  background-color: rgb(23, 66, 122);
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rrss {
+  width: 2em;
+}
+
+.titulo {
+  font-size: 1.5em;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+.titulo img {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: rgb(23, 66, 122);
+  width: 20%;
+  border: solid 1px rgb(23, 66, 122);
+  border-radius: 50%;
+}
+.resumen {
+  margin: 1em;
+  padding: 1em;
+  text-align: justify;
+}
+.datos,
+.edu,
+.hab,
+.exp {
+  margin: 1em;
+  padding: 1em;
+}
+
+.datos h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.datos table {
+  width: 52%;
+  border-collapse: collapse;
+}
+
+.edu {
+  margin: 1em;
+  padding: 1em;
+}
+.edu h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.edu table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hab {
+  margin: 1em;
+  padding: 1em;
+}
+.hab h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.hab ul {
+  list-style: lower-greek;
+  font-size: 1em;
+}
+
+.port h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.img_table {
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 95%;
+  border-collapse: collapse;
+}
+
+.hola {
+  width: 100%;
+  margin: 1em;
+  padding: 1em;
+}
+
+.hola .texto {
+  background-color: rgb(23, 66, 122);
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  text-align: justify;
+}
+
+ol li .flag {
+  width: 20px;
+}
+
+.radio{
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
